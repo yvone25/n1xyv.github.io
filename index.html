@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N1xyv</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#outfit-inspo">Outfit Inspo</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#social-media">Social Media</a></li>
+    </ul>
+  </nav>
+
+  <h1 class="title-header">n1xyv</h1>
+  <p class="tagline">Inspo for Every Vibe, Style for Every You.</p>
+
+  <div class="page-container">
+    <img src="notebook.JPG" alt="Scrapbook Page" class="scrapbook-page">
+  </div>
+
+  <section id="outfit-inspo" class="gallery">
+    <h2>outfit inspo</h2>
+    <div class="gallery-container">
+      <div class="gallery-images">
+        <figure>
+          <img src="IMG_2177.jpeg" alt="fit 1" data-description="Laid-back City Moments"> 
+          <figcaption>Laid-back City Moments</figcaption>
+        </figure>
+        <figure>
+          <img src="IMG_6933.jpeg" alt="fit 2" data-description="Effortless Day Date Outfit"> 
+          <figcaption>Effortless Day Date Outfit</figcaption>
+        </figure>
+        <figure>
+          <img src="IMG_8805.jpeg" alt="fit 3" data-description="Calm & Chic Beach Vibes"> 
+          <figcaption>Calm & Chic Beach Vibes</figcaption>
+        </figure>
+        <figure>
+          <video controls poster="vid1.jpeg" data-description="Comfy & Bold Street Style"> 
+            <source src="vid1.mp4" type="video/mp4">
+          </video>
+          <figcaption>Comfy & Bold Street Style</figcaption>
+        </figure>
+        <figure>
+          <video controls poster="vid2.jpeg" data-description="Casual Nights in the City">
+            <source src="vid2.mp4" type="video/mp4">
+          </video>
+          <figcaption>Casual Nights in the City</figcaption>
+        </figure>
+        <figure>
+          <video controls poster="vid3.jpeg" data-description="Cozy Day Outfit"> 
+            <source src="vid3.mp4" type="video/mp4">
+          </video>
+          <figcaption>Cozy Day Outfit</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-us" class="about-us">
+    <h2>About Us</h2>
+    <p>
+      At N1xyv, we believe fashion is more than just clothes — it's self-expression. Our mission is to inspire you with curated outfit ideas, mixing trending styles with timeless pieces. Whether you're searching for everyday looks, special occasion fits, or just a little aesthetic boost, N1xyv is here to spark your creativity. Join our community, discover new styles, and make every outfit feel uniquely yours.
+    </p>
+  </section>
+
+  <section id="social-media" class="social-media">
+    <h2>Follow Me</h2>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/n1xyv/" target="_blank">
+        <img src="insta.png" alt="Instagram">
+      </a>
+      <a href="https://www.tiktok.com/@n1xyv?is_from_webapp=1&sender_device=pc" target="_blank">
+        <img src="tiktok.png" alt="tiktok">
+      </a>
+    </div>
+  </section>
+
+  <div id="mediaModal" class="modal">
+    <div class="modal-content">
+      <span class="close" role="button" tabindex="0">&times;</span>
+      <div class="modal-body">
+        <div class="modal-media"></div>
+        <div class="modal-description"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
